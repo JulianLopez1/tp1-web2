@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-05-10T16:54:23.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="0evKApOwpBILnX42JeXn" version="24.3.1" type="device">
+  <diagram name="Página-1" id="rlOuSzFR9Id8UYuaGzmJ">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jSDly6M8WwBjkIgIpxPw-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="24" y="90" width="780" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="jSDly6M8WwBjkIgIpxPw-4" value="Representante" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="jSDly6M8WwBjkIgIpxPw-16">
+          <mxGeometry width="264.40677966101697" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="jSDly6M8WwBjkIgIpxPw-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Nombre&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Apellido&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Contacto&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jSDly6M8WwBjkIgIpxPw-4">
+          <mxGeometry y="62.5" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jSDly6M8WwBjkIgIpxPw-5" value="Jugador" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="jSDly6M8WwBjkIgIpxPw-16">
+          <mxGeometry x="515.5932203389831" width="264.40677966101697" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="jSDly6M8WwBjkIgIpxPw-9" value="Nombre&amp;nbsp;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;Apellido&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;Club&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;Representante&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="jSDly6M8WwBjkIgIpxPw-5">
+          <mxGeometry x="26.440677966101696" width="145.42372881355934" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="jSDly6M8WwBjkIgIpxPw-13" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="jSDly6M8WwBjkIgIpxPw-16">
+          <mxGeometry x="-1" y="160" relative="1" as="geometry">
+            <mxPoint x="277.6271186440678" y="150" as="sourcePoint" />
+            <mxPoint x="489.1525423728814" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jSDly6M8WwBjkIgIpxPw-14" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="jSDly6M8WwBjkIgIpxPw-13">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jSDly6M8WwBjkIgIpxPw-15" value="0..1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="jSDly6M8WwBjkIgIpxPw-13">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
